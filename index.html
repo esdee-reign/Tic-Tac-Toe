@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div class="header">
+    <div class="header" >
         <h1>Tic-Tac-Toe</h1>
     </div>
-
-        <div class="board x" id="board">
-            <div class="cell x" data-cell></div>
-            <div class="cell circle" data-cell></div>
+        <div class="message" id="message"><span id="player"></span></div>
+        <div class="board" id="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
             <div class="cell" data-cell></div>  
             <div class="cell" data-cell></div>
             <div class="cell" data-cell></div>
@@ -24,8 +26,8 @@
             <div class="cell" data-cell></div> 
         </div>
 
-        <div class="winning-message show" id="winning-message">
-            <div data-winning-message-text>X Wins!</div>
+        <div class="winning-message" id="winningMessage">
+            <div data-winning-message-text></div>
             <button id="restartButton">Restart</button>
         </div>
     

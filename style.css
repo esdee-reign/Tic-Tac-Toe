@@ -1,5 +1,6 @@
 *, *::after, *::before {
   box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
 }
 
 :root {
@@ -11,6 +12,12 @@
   margin: 0;
 }
 
+.header {
+  text-align: center;
+}
+ #message {
+   text-align: center;
+ }
 .board {
   width: 100vw;
   height: 100vh;
